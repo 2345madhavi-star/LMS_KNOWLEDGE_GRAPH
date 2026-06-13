@@ -1,0 +1,458 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alice Johnson",
+      "email": "alice@library.com",
+      "role": "student",
+      "phone": "+1 (555) 019-2834",
+      "registrationDate": "2026-01-15T09:00:00Z",
+      "status": "active"
+    },
+    {
+      "id": "u2",
+      "name": "Bob Smith",
+      "email": "bob@library.com",
+      "role": "student",
+      "phone": "+1 (555) 014-9821",
+      "registrationDate": "2026-02-10T11:30:00Z",
+      "status": "active"
+    },
+    {
+      "id": "u3",
+      "name": "Carol Danvers",
+      "email": "carol@library.com",
+      "role": "librarian",
+      "phone": "+1 (555) 017-3829",
+      "registrationDate": "2025-08-01T08:00:00Z",
+      "status": "active"
+    },
+    {
+      "id": "u4",
+      "name": "Admin Admin",
+      "email": "admin@library.com",
+      "role": "admin",
+      "phone": "+1 (555) 011-0000",
+      "registrationDate": "2025-01-01T08:00:00Z",
+      "status": "active"
+    }
+  ],
+  "books": [
+    {
+      "id": "b1",
+      "isbn": "978-0134076430",
+      "title": "Python Programming: An Introduction",
+      "author": "John Zelle",
+      "publisher": "Franklin, Beedle & Associates",
+      "genre": "Computer Science",
+      "subject": "Programming Foundations",
+      "description": "An introduction to computer science using the Python programming language. Perfect for complete beginners.",
+      "publicationYear": 2016,
+      "totalCopies": 10,
+      "availableCopies": 8,
+      "difficulty": "Beginner",
+      "keyTopics": [
+        "Python Basics",
+        "Loops",
+        "Functions",
+        "Data Structures"
+      ],
+      "recommendedAudience": "Students with zero programming experiences",
+      "summary": "This book uses Python to explain general computer programming concepts. It teaches logical thinking, building simple algorithms, and structuring code sequentially."
+    },
+    {
+      "id": "b2",
+      "isbn": "978-1449319793",
+      "title": "Python for Data Analysis",
+      "author": "Wes McKinney",
+      "publisher": "O'Reilly Media",
+      "genre": "Data Science",
+      "subject": "Data Analysis",
+      "description": "Complete guide for manipulating, processing, cleaning, and crunching datasets in Python. Written by creator of Pandas.",
+      "publicationYear": 2017,
+      "totalCopies": 8,
+      "availableCopies": 5,
+      "difficulty": "Intermediate",
+      "keyTopics": [
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Data Cleaning"
+      ],
+      "recommendedAudience": "Data scientists and programmers looking to work with tabular data",
+      "summary": "The ultimate workbook on utilizing NumPy and Pandas for modern analysis workflows. It teaches fast operations, grouping, pivoting, and preparing arrays for model training."
+    },
+    {
+      "id": "b3",
+      "isbn": "978-1492032649",
+      "title": "Hands-On Machine Learning with SciKit-Learn, Keras, and TensorFlow",
+      "author": "Aurélien Géron",
+      "publisher": "O'Reilly Media",
+      "genre": "Artificial Intelligence",
+      "subject": "Machine Learning",
+      "description": "A comprehensive practical guide to building intelligent systems using Python, Scikit-learn, and neural network libraries.",
+      "publicationYear": 2019,
+      "totalCopies": 5,
+      "availableCopies": 3,
+      "difficulty": "Intermediate",
+      "keyTopics": [
+        "Supervised Learning",
+        "Random Forests",
+        "Neural Networks",
+        "Gradient Boosting"
+      ],
+      "recommendedAudience": "Software engineers and analytical minds aiming to understand machine learning core theory",
+      "summary": "This hand-on handbook leads you from simple linear models to deep multi-layer neural networks, providing complete sample code and rigorous intuitive guidelines."
+    },
+    {
+      "id": "b4",
+      "isbn": "978-1492045526",
+      "title": "Deep Learning: A Visual Approaching",
+      "author": "Andrew Glassner",
+      "publisher": "No Starch Press",
+      "genre": "Artificial Intelligence",
+      "subject": "Deep Learning",
+      "description": "A fully visual, math-light introduction to natural networks, imagery recognition, and generative algorithms.",
+      "publicationYear": 2021,
+      "totalCopies": 4,
+      "availableCopies": 4,
+      "difficulty": "Advanced",
+      "keyTopics": [
+        "CNNs",
+        "RNNs",
+        "Backpropagation",
+        "Loss Functions"
+      ],
+      "recommendedAudience": "Visual learners interested in neural engines without heavy calculus",
+      "summary": "Fills the gap between high-level summaries and dense code. Teaches neurons, convolutional kernels, embeddings, and weights through hundreds of intuitive illustrations."
+    },
+    {
+      "id": "b5",
+      "isbn": "978-1098150389",
+      "title": "Generative AI & LLMs in Action",
+      "author": "David Clinton",
+      "publisher": "Manning Publications",
+      "genre": "Artificial Intelligence",
+      "subject": "Generative AI",
+      "description": "Learn to customize, fine-tune, select, and deploy large language models. Features prompt engineering, agentic setups, and RAG.",
+      "publicationYear": 2024,
+      "totalCopies": 6,
+      "availableCopies": 4,
+      "difficulty": "Advanced",
+      "keyTopics": [
+        "RAG",
+        "Prompt Engineering",
+        "Fine-tuning",
+        "Transformers"
+      ],
+      "recommendedAudience": "AI developers wanting to employ enterprise LLMs and generate high-fidelity text/audio assets",
+      "summary": "Teaches context injection, vector search, guardrails, and model configuration using bleeding-edge developer APIs, frameworks, and embeddings."
+    },
+    {
+      "id": "b6",
+      "isbn": "978-0132350884",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "publisher": "Prentice Hall",
+      "genre": "Software Engineering",
+      "subject": "Programming Foundations",
+      "description": "A handbook of agile software craftsmanship. Teaches how to write readability, maintainable, and elegant scripts.",
+      "publicationYear": 2008,
+      "totalCopies": 12,
+      "availableCopies": 10,
+      "difficulty": "Beginner",
+      "keyTopics": [
+        "Meaningful Names",
+        "Function Rules",
+        "Error Handling",
+        "Refactoring"
+      ],
+      "recommendedAudience": "All developers regardless of stack or language",
+      "summary": "The industry standard on architecture craftsmanship. It lists rules, bad smells, and extensive clean-ups of real codebases to turn working systems into aesthetic masterpieces."
+    },
+    {
+      "id": "b7",
+      "isbn": "978-1449316521",
+      "title": "Think Python: How to Think Like a Computer Scientist",
+      "author": "Allen B. Downey",
+      "publisher": "O'Reilly Media",
+      "genre": "Computer Science",
+      "subject": "Programming Foundations",
+      "description": "An introduction to Python programming that emphasizes computational thinking and software design principles.",
+      "publicationYear": 2015,
+      "totalCopies": 6,
+      "availableCopies": 6,
+      "difficulty": "Beginner",
+      "keyTopics": [
+        "Data Types",
+        "Recursion",
+        "Iterative Designt",
+        "Debugging"
+      ],
+      "recommendedAudience": "Introductory programming students",
+      "summary": "Think Python emphasizes structured problem solving. It takes you on a step-by-step path from writing your first print statement to object-oriented layouts."
+    }
+  ],
+  "relationships": [
+    {
+      "source": "b1",
+      "target": "b2",
+      "type": "prerequisite"
+    },
+    {
+      "source": "b2",
+      "target": "b3",
+      "type": "prerequisite"
+    },
+    {
+      "source": "b3",
+      "target": "b4",
+      "type": "prerequisite"
+    },
+    {
+      "source": "b4",
+      "target": "b5",
+      "type": "prerequisite"
+    },
+    {
+      "source": "b1",
+      "target": "b7",
+      "type": "anti_requisite"
+    },
+    {
+      "source": "b1",
+      "target": "John Zelle",
+      "type": "written_by"
+    },
+    {
+      "source": "b2",
+      "target": "Wes McKinney",
+      "type": "written_by"
+    },
+    {
+      "source": "b3",
+      "target": "Aurélien Géron",
+      "type": "written_by"
+    },
+    {
+      "source": "b4",
+      "target": "Andrew Glassner",
+      "type": "written_by"
+    },
+    {
+      "source": "b5",
+      "target": "David Clinton",
+      "type": "written_by"
+    },
+    {
+      "source": "b6",
+      "target": "Robert C. Martin",
+      "type": "written_by"
+    },
+    {
+      "source": "b7",
+      "target": "Allen B. Downey",
+      "type": "written_by"
+    },
+    {
+      "source": "b1",
+      "target": "Programming Foundations",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b2",
+      "target": "Data Analysis",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b3",
+      "target": "Machine Learning",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b4",
+      "target": "Deep Learning",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b5",
+      "target": "Generative AI",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b6",
+      "target": "Programming Foundations",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b7",
+      "target": "Programming Foundations",
+      "type": "belongs_to"
+    },
+    {
+      "source": "b1",
+      "target": "Computer Science",
+      "type": "related_to"
+    },
+    {
+      "source": "b2",
+      "target": "Data Science",
+      "type": "related_to"
+    },
+    {
+      "source": "b3",
+      "target": "Artificial Intelligence",
+      "type": "related_to"
+    },
+    {
+      "source": "b4",
+      "target": "Artificial Intelligence",
+      "type": "related_to"
+    },
+    {
+      "source": "b5",
+      "target": "Artificial Intelligence",
+      "type": "related_to"
+    }
+  ],
+  "borrowRecords": [
+    {
+      "id": "br1",
+      "userId": "u1",
+      "bookId": "b1",
+      "issueDate": "2026-05-15T10:00:00Z",
+      "dueDate": "2026-05-29T10:00:00Z",
+      "returnDate": "2026-05-28T14:00:00Z",
+      "renewCount": 0,
+      "status": "returned"
+    },
+    {
+      "id": "br2",
+      "userId": "u1",
+      "bookId": "b2",
+      "issueDate": "2026-05-28T15:00:00Z",
+      "dueDate": "2026-06-11T15:00:00Z",
+      "renewCount": 0,
+      "status": "borrowed"
+    },
+    {
+      "id": "br3",
+      "userId": "u2",
+      "bookId": "b3",
+      "issueDate": "2026-05-10T11:00:00Z",
+      "dueDate": "2026-05-24T11:00:00Z",
+      "renewCount": 0,
+      "status": "borrowed"
+    }
+  ],
+  "fines": [
+    {
+      "id": "f1",
+      "userId": "u2",
+      "bookId": "b3",
+      "borrowId": "br3",
+      "dueDate": "2026-05-24T11:00:00Z",
+      "daysOverdue": 18,
+      "fineAmount": 90,
+      "status": "unpaid"
+    }
+  ],
+  "payments": [],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u1",
+      "message": "Welcome to the AI-Powered Library! Tap on Knowledge Graph to map out your study routines.",
+      "date": "2026-06-11T09:00:00Z",
+      "status": "read",
+      "type": "info"
+    },
+    {
+      "id": "n2",
+      "userId": "u2",
+      "message": "URGENT fine issued: ₹90 overdue for 'Hands-On Machine Learning'. Please resolve promptly.",
+      "date": "2026-06-11T09:10:00Z",
+      "status": "unread",
+      "type": "fine"
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "lp1",
+      "name": "Artificial Intelligence Masterclass",
+      "description": "Embark from core programming foundations all the way to crafting Large Language Models.",
+      "category": "AI & ML",
+      "steps": [
+        {
+          "sequence": 1,
+          "title": "Programming Core Foundations",
+          "description": "Understand logic, parameters, and algorithms using introductory Python tools.",
+          "bookIds": [
+            "b1"
+          ]
+        },
+        {
+          "sequence": 2,
+          "title": "Tabular Manipulations & Scientific Analysis",
+          "description": "Learn to clean, pivot, group, and visualize extensive scientific datasets with Pandas.",
+          "bookIds": [
+            "b2"
+          ]
+        },
+        {
+          "sequence": 3,
+          "title": "Machine Learning Algorithmic Concepts",
+          "description": "Model linear regressions, decision trees, random forests, and gradient boosters.",
+          "bookIds": [
+            "b3"
+          ]
+        },
+        {
+          "sequence": 4,
+          "title": "Visual Neural Network Architecture",
+          "description": "Build Convolutional networks, dense weights, and understand weights optimizations.",
+          "bookIds": [
+            "b4"
+          ]
+        },
+        {
+          "sequence": 5,
+          "title": "Enterprise Generative AI & Retrieval Systems",
+          "description": "Deploy context-guided LLMs, leverage embeddings, vector datastores, and outline automated agents.",
+          "bookIds": [
+            "b5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lp2",
+      "name": "Software Engineering Principles",
+      "description": "Develop coding patterns that enable team collaborations, robust codebases, and maintainable systems.",
+      "category": "Systems Engineering",
+      "steps": [
+        {
+          "sequence": 1,
+          "title": "Beginning Programmatic Habits",
+          "description": "Learn to write fundamental logic statements cleanly.",
+          "bookIds": [
+            "b1"
+          ]
+        },
+        {
+          "sequence": 2,
+          "title": "Clean Code Architecture Craftsmanship",
+          "description": "Identify code smells, apply refactoring rules, structure tests, and separate modules elegantly.",
+          "bookIds": [
+            "b6"
+          ]
+        }
+      ]
+    }
+  ],
+  "finePolicy": {
+    "finePerDayBase": 5,
+    "finePerDayExtended": 10,
+    "extendedPeriodDays": 5
+  }
+}

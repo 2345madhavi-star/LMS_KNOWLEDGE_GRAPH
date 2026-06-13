@@ -1,0 +1,6 @@
+{
+  "name": "Library Management System",
+  "description": "AI-Powered Library Management System with Semantic Search and Knowledge Graph",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
